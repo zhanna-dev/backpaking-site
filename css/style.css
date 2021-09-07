@@ -1052,16 +1052,24 @@ h1 > span {
 
 /* // `xsm` applies to x-small devices (iPhone 5/5s/SE, equals 320px) */
 @media (max-width: 320px) {
+  .hero {
+    padding-top: 10px;
+  }
   .hero-block {
     padding: 18px;
   }
+  .hero-content {
+    font-size: 16px;
+  }
   .promo-img {
     height: 211px;
-    margin-top: 70px;
+    margin-top: 30px;
   }
   .promo-box {
-    padding: 0 20px 0 32px;
-  }
+    padding: 0 10px 0 10px;
+    margin-bottom: 50px;
+
+}
   .priority-boxes {
     flex-wrap: wrap;
     flex-direction: column;
@@ -1109,7 +1117,8 @@ h1 > span {
   }
   .footer {
     text-align: center;
-}
+    padding: 20px 0 40px;
+  }
 
   .footer-nav {
     flex-direction: column;
