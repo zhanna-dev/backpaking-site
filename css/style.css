@@ -1068,8 +1068,7 @@ h1 > span {
   .promo-box {
     padding: 0 10px 0 10px;
     margin-bottom: 50px;
-
-}
+  }
   .priority-boxes {
     flex-wrap: wrap;
     flex-direction: column;
